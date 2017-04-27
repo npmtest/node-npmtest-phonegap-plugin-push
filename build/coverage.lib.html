@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Code coverage report for node-npmtest-phonegap-plugin-push/node_modules/phonegap-plugin-push/www/push.js</title>
+    <title>Code coverage report for node-npmtest-phonegap-plugin-push/node_modules/phonegap-plugin-push/src/windows/PushPluginProxy.js</title>
     <meta charset="utf-8">
     <style>
         body, html {
@@ -194,23 +194,23 @@
     <h1 style="font-weight: bold;">
         <a href="https://github.com/npmtest/node-npmtest-phonegap-plugin-push">npmtest-phonegap-plugin-push (v0.0.2)</a>
     </h1>
-    <h1>Code coverage report for <span class="entity">node-npmtest-phonegap-plugin-push/node_modules/phonegap-plugin-push/www/push.js</span></h1>
+    <h1>Code coverage report for <span class="entity">node-npmtest-phonegap-plugin-push/node_modules/phonegap-plugin-push/src/windows/PushPluginProxy.js</span></h1>
     <h2>
         
-        Statements: <span class="metric">0.76% <small>(1 / 131)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Statements: <span class="metric">3.51% <small>(2 / 57)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Branches: <span class="metric">0% <small>(0 / 77)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Branches: <span class="metric">0% <small>(0 / 18)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Functions: <span class="metric">0% <small>(0 / 27)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Functions: <span class="metric">0% <small>(0 / 6)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Lines: <span class="metric">0.83% <small>(1 / 121)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Lines: <span class="metric">3.51% <small>(2 / 57)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
-    <div class="path"><a href="../../../../index.html">All files</a> &#187; <a href="index.html">node-npmtest-phonegap-plugin-push/node_modules/phonegap-plugin-push/www/</a> &#187; push.js</div>
+    <div class="path"><a href="../../../../../index.html">All files</a> &#187; <a href="index.html">node-npmtest-phonegap-plugin-push/node_modules/phonegap-plugin-push/src/windows/</a> &#187; PushPluginProxy.js</div>
 </div>
 <div class="body">
 <pre><table class="coverage">
@@ -308,898 +308,199 @@
 92
 93
 94
-95
-96
-97
-98
-99
-100
-101
-102
-103
-104
-105
-106
-107
-108
-109
-110
-111
-112
-113
-114
-115
-116
-117
-118
-119
-120
-121
-122
-123
-124
-125
-126
-127
-128
-129
-130
-131
-132
-133
-134
-135
-136
-137
-138
-139
-140
-141
-142
-143
-144
-145
-146
-147
-148
-149
-150
-151
-152
-153
-154
-155
-156
-157
-158
-159
-160
-161
-162
-163
-164
-165
-166
-167
-168
-169
-170
-171
-172
-173
-174
-175
-176
-177
-178
-179
-180
-181
-182
-183
-184
-185
-186
-187
-188
-189
-190
-191
-192
-193
-194
-195
-196
-197
-198
-199
-200
-201
-202
-203
-204
-205
-206
-207
-208
-209
-210
-211
-212
-213
-214
-215
-216
-217
-218
-219
-220
-221
-222
-223
-224
-225
-226
-227
-228
-229
-230
-231
-232
-233
-234
-235
-236
-237
-238
-239
-240
-241
-242
-243
-244
-245
-246
-247
-248
-249
-250
-251
-252
-253
-254
-255
-256
-257
-258
-259
-260
-261
-262
-263
-264
-265
-266
-267
-268
-269
-270
-271
-272
-273
-274
-275
-276
-277
-278
-279
-280
-281
-282
-283
-284
-285
-286
-287
-288
-289
-290
-291
-292
-293
-294
-295
-296
-297
-298
-299
-300
-301
-302
-303
-304
-305
-306
-307
-308
-309
-310
-311
-312
-313
-314
-315
-316
-317
-318
-319
-320
-321
-322
-323
-324
-325
-326
-327
-328</td><td class="line-coverage"><span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+95</td><td class="line-coverage"><span class="cline-any cline-yes">2</span>
 <span class="cline-any cline-yes">2</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/* global cordova:false */
-/* globals window */
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">var myApp = {};
+var pushNotifications = Windows.Networking.PushNotifications;
 &nbsp;
-/*!
- * Module dependencies.
- */
+<span class="cstat-no" title="statement not covered" >var createNotificationJSON = <span class="fstat-no" title="function not covered" >function (e) {</span></span>
+<span class="cstat-no" title="statement not covered" >    var result = { message: '' }; </span>      //Added to identify callback as notification type in the API in case where notification has no message
+<span class="cstat-no" title="statement not covered" >    var notificationPayload;</span>
 &nbsp;
-var exec = cordova.require('cordova/exec');
+<span class="cstat-no" title="statement not covered" >    switch (e.notificationType) {</span>
+        case pushNotifications.PushNotificationType.toast:
+        case pushNotifications.PushNotificationType.tile:
+<span class="cstat-no" title="statement not covered" >            if (e.notificationType === pushNotifications.PushNotificationType.toast) {</span>
+<span class="cstat-no" title="statement not covered" >                notificationPayload = e.toastNotification.content;</span>
+            }
+            else {
+<span class="cstat-no" title="statement not covered" >                notificationPayload = e.tileNotification.content;</span>
+            }
+<span class="cstat-no" title="statement not covered" >            var texts = notificationPayload.getElementsByTagName("text");</span>
+<span class="cstat-no" title="statement not covered" >            if (texts.length &gt; 1) {</span>
+<span class="cstat-no" title="statement not covered" >                result.title = texts[0].innerText;</span>
+<span class="cstat-no" title="statement not covered" >                result.message = texts[1].innerText;</span>
+            }
+            else <span class="cstat-no" title="statement not covered" >if(texts.length === 1) {</span>
+<span class="cstat-no" title="statement not covered" >                result.message = texts[0].innerText;</span>
+            }
+<span class="cstat-no" title="statement not covered" >            var images = notificationPayload.getElementsByTagName("image");</span>
+<span class="cstat-no" title="statement not covered" >            if (images.length &gt; 0) {</span>
+<span class="cstat-no" title="statement not covered" >                result.image = images[0].getAttribute("src");</span>
+            }
+<span class="cstat-no" title="statement not covered" >            var soundFile = notificationPayload.getElementsByTagName("audio");</span>
+<span class="cstat-no" title="statement not covered" >            if (soundFile.length &gt; 0) {</span>
+<span class="cstat-no" title="statement not covered" >                result.sound = soundFile[0].getAttribute("src");</span>
+            }
+<span class="cstat-no" title="statement not covered" >            break;</span>
 &nbsp;
-/**
- * PushNotification constructor.
- *
- * @param {Object} options to initiate Push Notifications.
- * @return {PushNotification} instance that can be monitored and cancelled.
- */
+        case pushNotifications.PushNotificationType.badge:
+<span class="cstat-no" title="statement not covered" >            notificationPayload = e.badgeNotification.content;</span>
+<span class="cstat-no" title="statement not covered" >            result.count = notificationPayload.getElementsByTagName("badge")[0].getAttribute("value");</span>
+<span class="cstat-no" title="statement not covered" >            break;</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >var PushNotification = <span class="fstat-no" title="function not covered" >function(options) {</span></span>
-<span class="cstat-no" title="statement not covered" >    this._handlers = {</span>
-        'registration': [],
-        'notification': [],
-        'error': []
-    };
-&nbsp;
-    // require options parameter
-<span class="cstat-no" title="statement not covered" >    if (typeof options === 'undefined') {</span>
-<span class="cstat-no" title="statement not covered" >        throw new Error('The options argument is required.');</span>
+        case pushNotifications.PushNotificationType.raw:
+<span class="cstat-no" title="statement not covered" >            result.message = e.rawNotification.content;</span>
+<span class="cstat-no" title="statement not covered" >            break;</span>
     }
 &nbsp;
-    // store the options to this object instance
-<span class="cstat-no" title="statement not covered" >    this.options = options;</span>
-&nbsp;
-    // triggered on registration and notification
-<span class="cstat-no" title="statement not covered" >    var that = this;</span>
-<span class="cstat-no" title="statement not covered" >    var success = <span class="fstat-no" title="function not covered" >function(result) {</span></span>
-<span class="cstat-no" title="statement not covered" >        if (result &amp;&amp; typeof result.registrationId !== 'undefined') {</span>
-<span class="cstat-no" title="statement not covered" >            that.emit('registration', result);</span>
-        } else <span class="cstat-no" title="statement not covered" >if (result &amp;&amp; result.additionalData &amp;&amp; typeof result.additionalData.actionCallback !== 'undefined') {</span>
-<span class="cstat-no" title="statement not covered" >            var executeFuctionOrEmitEventByName = <span class="fstat-no" title="function not covered" >function(callbackName, context, arg) {</span></span>
-<span class="cstat-no" title="statement not covered" >              var namespaces = callbackName.split('.');</span>
-<span class="cstat-no" title="statement not covered" >              var func = namespaces.pop();</span>
-<span class="cstat-no" title="statement not covered" >              for (var i = 0; i &lt; namespaces.length; i++) {</span>
-<span class="cstat-no" title="statement not covered" >                context = context[namespaces[i]];</span>
-              }
-&nbsp;
-<span class="cstat-no" title="statement not covered" >              if (typeof context[func] === 'function') {</span>
-<span class="cstat-no" title="statement not covered" >                context[func].call(context, arg);</span>
-              } else {
-<span class="cstat-no" title="statement not covered" >                that.emit(callbackName, arg);</span>
-              }
-            };
-&nbsp;
-<span class="cstat-no" title="statement not covered" >            executeFuctionOrEmitEventByName(result.additionalData.actionCallback, window, result);</span>
-        } else <span class="cstat-no" title="statement not covered" >if (result) {</span>
-<span class="cstat-no" title="statement not covered" >            that.emit('notification', result);</span>
-        }
-    };
-&nbsp;
-    // triggered on error
-<span class="cstat-no" title="statement not covered" >    var fail = <span class="fstat-no" title="function not covered" >function(msg) {</span></span>
-<span class="cstat-no" title="statement not covered" >        var e = (typeof msg === 'string') ? new Error(msg) : msg;</span>
-<span class="cstat-no" title="statement not covered" >        that.emit('error', e);</span>
-    };
-&nbsp;
-    // wait at least one process tick to allow event subscriptions
-<span class="cstat-no" title="statement not covered" >    setTimeout(<span class="fstat-no" title="function not covered" >function() {</span></span>
-<span class="cstat-no" title="statement not covered" >        exec(success, fail, 'PushNotification', 'init', [options]);</span>
-    }, 10);
-};
-&nbsp;
-/**
- * Unregister from push notifications
- */
-&nbsp;
-<span class="cstat-no" title="statement not covered" >PushNotification.prototype.unregister = <span class="fstat-no" title="function not covered" >function(successCallback, errorCallback, options) {</span></span>
-<span class="cstat-no" title="statement not covered" >    if (!errorCallback) { <span class="cstat-no" title="statement not covered" >errorCallback = <span class="fstat-no" title="function not covered" >function() {</span>}; </span>}</span>
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    if (typeof errorCallback !== 'function')  {</span>
-<span class="cstat-no" title="statement not covered" >        console.log('PushNotification.unregister failure: failure parameter not a function');</span>
-<span class="cstat-no" title="statement not covered" >        return;</span>
-    }
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    if (typeof successCallback !== 'function') {</span>
-<span class="cstat-no" title="statement not covered" >        console.log('PushNotification.unregister failure: success callback parameter must be a function');</span>
-<span class="cstat-no" title="statement not covered" >        return;</span>
-    }
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    var that = this;</span>
-<span class="cstat-no" title="statement not covered" >    var cleanHandlersAndPassThrough = <span class="fstat-no" title="function not covered" >function() {</span></span>
-<span class="cstat-no" title="statement not covered" >        if (!options) {</span>
-<span class="cstat-no" title="statement not covered" >            that._handlers = {</span>
-                'registration': [],
-                'notification': [],
-                'error': []
-            };
-        }
-<span class="cstat-no" title="statement not covered" >        successCallback();</span>
-    };
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    exec(cleanHandlersAndPassThrough, errorCallback, 'PushNotification', 'unregister', [options]);</span>
-};
-&nbsp;
-/**
- * subscribe to a topic
- * @param   {String}      topic               topic to subscribe
- * @param   {Function}    successCallback     success callback
- * @param   {Function}    errorCallback       error callback
- * @return  {void}
- */
-<span class="cstat-no" title="statement not covered" >PushNotification.prototype.subscribe = <span class="fstat-no" title="function not covered" >function(topic, successCallback, errorCallback) {</span></span>
-<span class="cstat-no" title="statement not covered" >    if (!errorCallback) { <span class="cstat-no" title="statement not covered" >errorCallback = <span class="fstat-no" title="function not covered" >function() {</span>}; </span>}</span>
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    if (typeof errorCallback !== 'function')  {</span>
-<span class="cstat-no" title="statement not covered" >        console.log('PushNotification.subscribe failure: failure parameter not a function');</span>
-<span class="cstat-no" title="statement not covered" >        return;</span>
-    }
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    if (typeof successCallback !== 'function') {</span>
-<span class="cstat-no" title="statement not covered" >        console.log('PushNotification.subscribe failure: success callback parameter must be a function');</span>
-<span class="cstat-no" title="statement not covered" >        return;</span>
-    }
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    exec(successCallback, errorCallback, 'PushNotification', 'subscribe', [topic]);</span>
-};
-&nbsp;
-/**
- * unsubscribe to a topic
- * @param   {String}      topic               topic to unsubscribe
- * @param   {Function}    successCallback     success callback
- * @param   {Function}    errorCallback       error callback
- * @return  {void}
- */
-<span class="cstat-no" title="statement not covered" >PushNotification.prototype.unsubscribe = <span class="fstat-no" title="function not covered" >function(topic, successCallback, errorCallback) {</span></span>
-<span class="cstat-no" title="statement not covered" >    if (!errorCallback) { <span class="cstat-no" title="statement not covered" >errorCallback = <span class="fstat-no" title="function not covered" >function() {</span>}; </span>}</span>
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    if (typeof errorCallback !== 'function')  {</span>
-<span class="cstat-no" title="statement not covered" >        console.log('PushNotification.unsubscribe failure: failure parameter not a function');</span>
-<span class="cstat-no" title="statement not covered" >        return;</span>
-    }
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    if (typeof successCallback !== 'function') {</span>
-<span class="cstat-no" title="statement not covered" >        console.log('PushNotification.unsubscribe failure: success callback parameter must be a function');</span>
-<span class="cstat-no" title="statement not covered" >        return;</span>
-    }
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    exec(successCallback, errorCallback, 'PushNotification', 'unsubscribe', [topic]);</span>
-};
-&nbsp;
-/**
- * Call this to set the application icon badge
- */
-&nbsp;
-<span class="cstat-no" title="statement not covered" >PushNotification.prototype.setApplicationIconBadgeNumber = <span class="fstat-no" title="function not covered" >function(successCallback, errorCallback, badge) {</span></span>
-<span class="cstat-no" title="statement not covered" >    if (!errorCallback) { <span class="cstat-no" title="statement not covered" >errorCallback = <span class="fstat-no" title="function not covered" >function() {</span>}; </span>}</span>
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    if (typeof errorCallback !== 'function')  {</span>
-<span class="cstat-no" title="statement not covered" >        console.log('PushNotification.setApplicationIconBadgeNumber failure: failure parameter not a function');</span>
-<span class="cstat-no" title="statement not covered" >        return;</span>
-    }
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    if (typeof successCallback !== 'function') {</span>
-<span class="cstat-no" title="statement not covered" >        console.log('PushNotification.setApplicationIconBadgeNumber failure: success callback parameter must be a function');</span>
-<span class="cstat-no" title="statement not covered" >        return;</span>
-    }
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    exec(successCallback, errorCallback, 'PushNotification', 'setApplicationIconBadgeNumber', [{badge: badge}]);</span>
-};
-&nbsp;
-/**
- * Get the application icon badge
- */
-&nbsp;
-<span class="cstat-no" title="statement not covered" >PushNotification.prototype.getApplicationIconBadgeNumber = <span class="fstat-no" title="function not covered" >function(successCallback, errorCallback) {</span></span>
-<span class="cstat-no" title="statement not covered" >    if (!errorCallback) { <span class="cstat-no" title="statement not covered" >errorCallback = <span class="fstat-no" title="function not covered" >function() {</span>}; </span>}</span>
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    if (typeof errorCallback !== 'function')  {</span>
-<span class="cstat-no" title="statement not covered" >        console.log('PushNotification.getApplicationIconBadgeNumber failure: failure parameter not a function');</span>
-<span class="cstat-no" title="statement not covered" >        return;</span>
-    }
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    if (typeof successCallback !== 'function') {</span>
-<span class="cstat-no" title="statement not covered" >        console.log('PushNotification.getApplicationIconBadgeNumber failure: success callback parameter must be a function');</span>
-<span class="cstat-no" title="statement not covered" >        return;</span>
-    }
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    exec(successCallback, errorCallback, 'PushNotification', 'getApplicationIconBadgeNumber', []);</span>
-};
-&nbsp;
-/**
- * Get the application icon badge
- */
-&nbsp;
-<span class="cstat-no" title="statement not covered" >PushNotification.prototype.clearAllNotifications = <span class="fstat-no" title="function not covered" >function(successCallback, errorCallback) {</span></span>
-<span class="cstat-no" title="statement not covered" >    if (!successCallback) { <span class="cstat-no" title="statement not covered" >successCallback = <span class="fstat-no" title="function not covered" >function() {</span>}; </span>}</span>
-<span class="cstat-no" title="statement not covered" >    if (!errorCallback) { <span class="cstat-no" title="statement not covered" >errorCallback = <span class="fstat-no" title="function not covered" >function() {</span>}; </span>}</span>
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    if (typeof errorCallback !== 'function')  {</span>
-<span class="cstat-no" title="statement not covered" >        console.log('PushNotification.clearAllNotifications failure: failure parameter not a function');</span>
-<span class="cstat-no" title="statement not covered" >        return;</span>
-    }
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    if (typeof successCallback !== 'function') {</span>
-<span class="cstat-no" title="statement not covered" >        console.log('PushNotification.clearAllNotifications failure: success callback parameter must be a function');</span>
-<span class="cstat-no" title="statement not covered" >        return;</span>
-    }
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    exec(successCallback, errorCallback, 'PushNotification', 'clearAllNotifications', []);</span>
-};
-&nbsp;
-/**
- * Listen for an event.
- *
- * Any event is supported, but the following are built-in:
- *
- *   - registration
- *   - notification
- *   - error
- *
- * @param {String} eventName to subscribe to.
- * @param {Function} callback triggered on the event.
- */
-&nbsp;
-<span class="cstat-no" title="statement not covered" >PushNotification.prototype.on = <span class="fstat-no" title="function not covered" >function(eventName, callback) {</span></span>
-<span class="cstat-no" title="statement not covered" >    if (!this._handlers.hasOwnProperty(eventName)) {</span>
-<span class="cstat-no" title="statement not covered" >        this._handlers[eventName] = [];</span>
-    }
-<span class="cstat-no" title="statement not covered" >    this._handlers[eventName].push(callback);</span>
-};
-&nbsp;
-/**
- * Remove event listener.
- *
- * @param {String} eventName to match subscription.
- * @param {Function} handle function associated with event.
- */
-&nbsp;
-<span class="cstat-no" title="statement not covered" >PushNotification.prototype.off = <span class="fstat-no" title="function not covered" >function (eventName, handle) {</span></span>
-<span class="cstat-no" title="statement not covered" >    if (this._handlers.hasOwnProperty(eventName)) {</span>
-<span class="cstat-no" title="statement not covered" >        var handleIndex = this._handlers[eventName].indexOf(handle);</span>
-<span class="cstat-no" title="statement not covered" >        if (handleIndex &gt;= 0) {</span>
-<span class="cstat-no" title="statement not covered" >            this._handlers[eventName].splice(handleIndex, 1);</span>
-        }
-    }
-};
-&nbsp;
-/**
- * Emit an event.
- *
- * This is intended for internal use only.
- *
- * @param {String} eventName is the event to trigger.
- * @param {*} all arguments are passed to the event listeners.
- *
- * @return {Boolean} is true when the event is triggered otherwise false.
- */
-&nbsp;
-<span class="cstat-no" title="statement not covered" >PushNotification.prototype.emit = <span class="fstat-no" title="function not covered" >function() {</span></span>
-<span class="cstat-no" title="statement not covered" >    var args = Array.prototype.slice.call(arguments);</span>
-<span class="cstat-no" title="statement not covered" >    var eventName = args.shift();</span>
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    if (!this._handlers.hasOwnProperty(eventName)) {</span>
-<span class="cstat-no" title="statement not covered" >        return false;</span>
-    }
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    for (var i = 0, length = this._handlers[eventName].length; i &lt; length; i++) {</span>
-<span class="cstat-no" title="statement not covered" >        var callback = this._handlers[eventName][i];</span>
-<span class="cstat-no" title="statement not covered" >        if (typeof callback === 'function') {</span>
-<span class="cstat-no" title="statement not covered" >            callback.apply(undefined,args);</span>
-        } else {
-<span class="cstat-no" title="statement not covered" >            console.log('event handler: ' + eventName + ' must be a function');</span>
-        }
-    }
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    return true;</span>
-};
-&nbsp;
-<span class="cstat-no" title="statement not covered" >PushNotification.prototype.finish = <span class="fstat-no" title="function not covered" >function(successCallback, errorCallback, id) {</span></span>
-<span class="cstat-no" title="statement not covered" >    if (!successCallback) { <span class="cstat-no" title="statement not covered" >successCallback = <span class="fstat-no" title="function not covered" >function() {</span>}; </span>}</span>
-<span class="cstat-no" title="statement not covered" >    if (!errorCallback) { <span class="cstat-no" title="statement not covered" >errorCallback = <span class="fstat-no" title="function not covered" >function() {</span>}; </span>}</span>
-<span class="cstat-no" title="statement not covered" >    if (!id) { <span class="cstat-no" title="statement not covered" >id = 'handler'; </span>}</span>
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    if (typeof successCallback !== 'function') {</span>
-<span class="cstat-no" title="statement not covered" >        console.log('finish failure: success callback parameter must be a function');</span>
-<span class="cstat-no" title="statement not covered" >        return;</span>
-    }
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    if (typeof errorCallback !== 'function')  {</span>
-<span class="cstat-no" title="statement not covered" >        console.log('finish failure: failure parameter not a function');</span>
-<span class="cstat-no" title="statement not covered" >        return;</span>
-    }
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    exec(successCallback, errorCallback, 'PushNotification', 'finish', [id]);</span>
-};
-&nbsp;
-/*!
- * Push Notification Plugin.
- */
+<span class="cstat-no" title="statement not covered" >    result.additionalData = { coldstart: false }; </span>        // this gets called only when the app is running
+<span class="cstat-no" title="statement not covered" >    result.additionalData.pushNotificationReceivedEventArgs = e;</span>
+<span class="cstat-no" title="statement not covered" >    return result;</span>
+}
 &nbsp;
 <span class="cstat-no" title="statement not covered" >module.exports = {</span>
-    /**
-     * Register for Push Notifications.
-     *
-     * This method will instantiate a new copy of the PushNotification object
-     * and start the registration process.
-     *
-     * @param {Object} options
-     * @return {PushNotification} instance
-     */
+    init: <span class="fstat-no" title="function not covered" >function (onSuccess, onFail, args) {</span>
 &nbsp;
-    init: <span class="fstat-no" title="function not covered" >function(options) {</span>
-<span class="cstat-no" title="statement not covered" >        return new PushNotification(options);</span>
+<span class="cstat-no" title="statement not covered" >        var onNotificationReceived = <span class="fstat-no" title="function not covered" >function (e) {</span></span>
+<span class="cstat-no" title="statement not covered" >            var result = createNotificationJSON(e);</span>
+<span class="cstat-no" title="statement not covered" >            onSuccess(result, { keepCallback: true });</span>
+        }
+&nbsp;
+<span class="cstat-no" title="statement not covered" >        try {</span>
+<span class="cstat-no" title="statement not covered" >            pushNotifications.PushNotificationChannelManager.createPushNotificationChannelForApplicationAsync().done(</span>
+<span class="fstat-no" title="function not covered" >                function (channel) {</span>
+<span class="cstat-no" title="statement not covered" >                    var result = {};</span>
+<span class="cstat-no" title="statement not covered" >                    result.registrationId = channel.uri;</span>
+<span class="cstat-no" title="statement not covered" >                    myApp.channel = channel;</span>
+<span class="cstat-no" title="statement not covered" >                    channel.addEventListener("pushnotificationreceived", onNotificationReceived);</span>
+<span class="cstat-no" title="statement not covered" >                    myApp.notificationEvent = onNotificationReceived;</span>
+<span class="cstat-no" title="statement not covered" >                    onSuccess(result, { keepCallback: true });</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >                    var context = cordova.require('cordova/platform').activationContext;</span>
+<span class="cstat-no" title="statement not covered" >                    var launchArgs = context ? context.args : null;</span>
+<span class="cstat-no" title="statement not covered" >                    if (launchArgs) {         //If present, app launched through push notification</span>
+<span class="cstat-no" title="statement not covered" >                        var result = { message: '' }; </span>      //Added to identify callback as notification type in the API
+<span class="cstat-no" title="statement not covered" >                        result.launchArgs = launchArgs;</span>
+<span class="cstat-no" title="statement not covered" >                        result.additionalData = { coldstart: true };</span>
+<span class="cstat-no" title="statement not covered" >                        onSuccess(result, { keepCallback: true });</span>
+                    }
+                }, <span class="fstat-no" title="function not covered" >function (error) {</span>
+<span class="cstat-no" title="statement not covered" >                    onFail(error);</span>
+                });
+        } catch (ex) {
+<span class="cstat-no" title="statement not covered" >            onFail(ex);</span>
+        }
     },
-&nbsp;
-    hasPermission: <span class="fstat-no" title="function not covered" >function(successCallback, errorCallback) {</span>
-<span class="cstat-no" title="statement not covered" >        exec(successCallback, errorCallback, 'PushNotification', 'hasPermission', []);</span>
-    },
-&nbsp;
-    /**
-     * PushNotification Object.
-     *
-     * Expose the PushNotification object for direct use
-     * and testing. Typically, you should use the
-     * .init helper method.
-     */
-&nbsp;
-    PushNotification: PushNotification
+    unregister: <span class="fstat-no" title="function not covered" >function (onSuccess, onFail, args) {</span>
+<span class="cstat-no" title="statement not covered" >        try {</span>
+<span class="cstat-no" title="statement not covered" >            myApp.channel.removeEventListener("pushnotificationreceived", myApp.notificationEvent);</span>
+<span class="cstat-no" title="statement not covered" >            myApp.channel.close();</span>
+<span class="cstat-no" title="statement not covered" >            onSuccess();</span>
+        } catch(ex) {
+<span class="cstat-no" title="statement not covered" >            onFail(ex);</span>
+        }
+    }
 };
+<span class="cstat-no" title="statement not covered" >require("cordova/exec/proxy").add("PushNotification", module.exports);</span>
 &nbsp;
 &nbsp;</pre></td></tr>
 </table></pre>
 </div>
 <div class="footer">
-    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Wed Apr 19 2017 06:03:44 GMT+0000 (UTC)</div>
+    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Thu Apr 27 2017 16:42:16 GMT+0000 (UTC)</div>
 </div>
 </body>
 </html>
